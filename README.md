@@ -1,4 +1,4 @@
-# Resistance服飾電商網站
+# Resistance服飾電商網站作品
 [gh-pages](https://ted31539.github.io/resistance/#/)
 ```
 勇敢冒險，再大的風雨也無懼！
