@@ -1,5 +1,5 @@
 # Resistance服飾電商網站
-[gh-pages](https://ted31539.github.io/clothes/#/)
+[gh-pages](https://ted31539.github.io/resistance/#/)
 ```
 勇敢冒險，再大的風雨也無懼！
 ```

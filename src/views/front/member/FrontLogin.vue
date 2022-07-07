@@ -68,7 +68,7 @@ export default {
           .then(() => {
             auth.languageCode = 'zh-TW';
             auth.ActionCodeSettings = {
-              url: `https://ted31539.github.io/clothes/#/login/?email=${auth.currentUser.email}`,
+              url: `https://ted31539.github.io/resistance/#/login/?email=${auth.currentUser.email}`,
             };
             sendEmailVerification(auth.currentUser, auth.ActionCodeSettings).then(() => {
               this.$refs.accountForm.resetForm();
