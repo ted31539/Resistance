@@ -1,0 +1,62 @@
+body {
+  font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden !important;
+}
+
+p,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5 !important;
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+.h1 {
+  font-family: 'Satisfy', cursive;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+ul,
+li {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.btn {
+  transition: all 0.1s ease-out;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+input {
+  &:active,
+  &:focus {
+    outline: none !important;
+    border-bottom: 1px black solid !important;
+  }
+}

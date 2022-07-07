@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Roboto:wght@300;400;900&family=Satisfy&display=swap');
+
+@import '~bootstrap/scss/functions';
+@import './helpers/_variables';
+@import '~bootstrap/scss/utilities';
+@import './helpers/utilities';
+@import './helpers/_mixin.scss';
+@import '~bootstrap/scss/bootstrap';
+
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css');
+@import './helpers/base';
+@import './helpers//animation';
+@import './helpers/components/button';
+@import './helpers/components/input';
+@import './helpers/components/swiperBanner';
+@import './helpers/components/swiperProduct';
+@import './helpers/components/cartBtn';
+
+@import './helpers/views/home';
+@import './helpers/views/carts';
+@import './helpers/views/article';
+@import './helpers/views/about';
+@import './helpers/views/questions';
+@import './helpers/views/products';
+@import './helpers/views/order';
+@import './helpers/views/member';
+

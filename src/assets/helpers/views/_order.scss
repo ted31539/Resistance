@@ -1,0 +1,18 @@
+.bi-arrow-down-circle-fill {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+
+  &::before {
+    transition: 0.3s;
+  }
+}
+
+.dropdown-show {
+  transition: 0.3s;
+
+  &::before {
+    transition: 0.3s;
+    transform: rotate(180deg);
+  }
+}

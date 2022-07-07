@@ -1,0 +1,6 @@
+.question-banner {
+  @include banner {
+    background-image: url('~@/assets/image/product-banner.jpg');
+    background-position-y: 40%;
+  }
+}

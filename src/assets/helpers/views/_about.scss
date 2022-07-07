@@ -1,0 +1,6 @@
+.about-banner {
+  @include banner {
+    background-image: url('~@/assets/image/about-banner.jpg');
+    background-position-y: 85%;
+  }
+}

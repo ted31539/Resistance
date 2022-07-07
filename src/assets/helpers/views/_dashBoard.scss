@@ -1,0 +1,53 @@
+.nav {
+  transition: width 0.25s linear;
+  width: 180px;
+
+  li a {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+.hiden-nav {
+  // transition: width 0.25s linear;
+  width: 64px;
+
+  li h2 span {
+    display: none;
+  }
+
+  li span,
+  li .bi-caret-right-fill {
+    display: none;
+  }
+}
+
+.toggle-nav-btn {
+  padding: 1px 6px;
+}
+
+.btn {
+  &:active,
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.rotate-down {
+  &::before {
+    transform: rotate(90deg);
+    transition: all 0.25s linear;
+  }
+}
+
+.rotate-reverse {
+  &::before {
+    vertical-align: 0;
+    transform: rotate(180deg);
+    transition: all 0.25s linear;
+  }
+}
+
+.bi::before {
+  transition: transform 0.25s linear;
+}

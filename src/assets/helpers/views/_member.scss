@@ -1,0 +1,7 @@
+.member-banner {
+  @include banner {
+    background-image: url('~@/assets/image/cart-top.jpg');
+    background-position-y: 75%;
+  }
+}
+

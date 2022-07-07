@@ -1,0 +1,35 @@
+.banner {
+  @include banner {
+    background-image: url('~@/assets/image/cart-top.jpg');
+    background-position-y: 75%;
+  }
+}
+
+.progress {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: black;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.progress-active {
+  &::before {
+    content: '';
+    position: absolute;
+    width: 3.375rem;
+    height: 3.375rem;
+    border: 2px black dotted;
+    border-radius: 50%;
+    animation-name: Rotate;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+}
